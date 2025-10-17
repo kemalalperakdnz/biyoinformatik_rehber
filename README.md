@@ -57,8 +57,3 @@ Bu proje, biyoinformatik alanında mükemmel olmak isteyen kişiler için kapsam
 - Topluluklar: Biostars, r/bioinformatics
 - Araçlar: BLAST, GATK, DESeq2, AlphaFold
 
----
-
-**Not**: Bu platform sürekli güncellenmektedir. Yeni içerikler ve kaynaklar eklenmeye devam edecektir.
-
-© 2024 Biyoinformatik Yolculuğu - Başarılar dileriz! 🧬
