@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biyoinformatik Mükemmellik Yol Haritası - Kapsamlı Rehber</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-dna"></i>
+                <span>Biyoinformatik Yolculuğu</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#temeller">Temeller</a></li>
+                <li><a href="#yol-haritasi">Yol Haritası</a></li>
+                <li><a href="#araclar">Araçlar</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#kaynaklar">Kaynaklar</a></li>
+                <li><a href="#basari">Başarı İpuçları</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="giris">
+        <div class="hero-content">
+            <h1 class="hero-title">Biyoinformatik Mükemmellik Yolculuğu</h1>
+            <p class="hero-subtitle">Moleküler biyoloji ve bilgisayar biliminin kesişiminde uzman olun</p>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <i class="fas fa-book"></i>
+                    <h3>10+ Modül</h3>
+                    <p>Kapsamlı Eğitim</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code"></i>
+                    <h3>50+ Araç</h3>
+                    <p>Pratik Uygulamalar</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>20+ Proje</h3>
+                    <p>Gerçek Deneyim</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="temeller">
+        <div class="container">
+            <h2 class="section-title">Biyoinformatik Nedir?</h2>
+            <div class="intro-grid">
+                <a href="biyoloji.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-dna"></i>
+                        <h3>Biyoloji</h3>
+                        <p>DNA, RNA, protein dizileri ve biyolojik sistemlerin anlaşılması</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+                <a href="bilgisayar-bilimi.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Bilgisayar Bilimi</h3>
+                        <p>Algoritmalar, veri yapıları ve yazılım geliştirme</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+                <a href="istatistik.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>İstatistik</h3>
+                        <p>Veri analizi, makine öğrenmesi ve istatistiksel modelleme</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+                <a href="veri-bilimi.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Veri Bilimi</h3>
+                        <p>Büyük veri yönetimi ve görselleştirme</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="yol-haritasi">
+        <div class="container">
+            <h2 class="section-title">Öğrenme Yol Haritası</h2>
+            <p class="section-subtitle">Başlangıçtan ileri seviyeye kapsamlı eğitim planı</p>
+            
+            <div class="roadmap">
+                <div class="roadmap-phase">
+                    <div class="phase-header">
+                        <span class="phase-number">1</span>
+                        <h3>Temel Bilgiler (0-3 Ay)</h3>
+                    </div>
+                    <div class="phase-content">
+                        <div class="topic-card">
+                            <h4><i class="fas fa-graduation-cap"></i> Moleküler Biyoloji Temelleri</h4>
+                            <ul>
+                                <li><strong>DNA Yapısı:</strong> Nükleotidler (A, T, G, C), baz çiftleri, çift sarmal yapı</li>
+                                <li><strong>RNA:</strong> mRNA (mesajcı), tRNA (transfer), rRNA (ribozomal)</li>
+                                <li><strong>Proteinler:</strong> 20 amino asit, protein yapısı ve fonksiyonları</li>
+                                <li><strong>Dogma Merkezi:</strong> Replikasyon, transkripsiyon, translasyon</li>
+                                <li><strong>Genler ve Genomlar:</strong> Gen yapısı, ekson, intron, promoter</li>
+                            </ul>
+                            <div class="resources">
+                                <strong>Kaynaklar:</strong>
+                                <a href="https://www.khanacademy.org/science/biology" target="_blank">Khan Academy</a>
+                                <a href="https://www.nature.com/scitable" target="_blank">Nature Scitable</a>
+                            </div>
+                        </div>
+
+                        <div class="topic-card">
+                            <h4><i class="fas fa-code"></i> Programlama - Python</h4>
+                            <ul>
+                                <li><strong>Temel Sözdizimi:</strong> Değişkenler, veri tipleri, operatörler</li>
+                                <li><strong>Kontrol Yapıları:</strong> if-else, for/while döngüleri</li>
+                                <li><strong>Veri Yapıları:</strong> Listeler, sözlükler, tuple, set</li>
+                                <li><strong>Fonksiyonlar:</strong> Tanımlama, parametreler, return</li>
+                                <li><strong>Dosya İşlemleri:</strong> FASTA, FASTQ formatları</li>
+                                <li><strong>Kütüphaneler:</strong> NumPy, Pandas, Biopython</li>
+                            </ul>
+                        </div>
+
+                        <div class="topic-card">
+                            <h4><i class="fas fa-terminal"></i> Linux ve Komut Satırı</h4>
+                            <ul>
+                                <li><strong>Temel Komutlar:</strong> ls, cd, pwd, mkdir, rm, cp, mv</li>
+                                <li><strong>Dosya İşlemleri:</strong> cat, grep, sed, awk</li>
+                                <li><strong>Bash Scripting:</strong> Otomatizasyon ve pipeline</li>
+                                <li><strong>Paket Yönetimi:</strong> conda, pip</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-phase">
+                    <div class="phase-header">
+                        <span class="phase-number">2</span>
+                        <h3>Biyoinformatik Temelleri (3-6 Ay)</h3>
+                    </div>
+                    <div class="phase-content">
+                        <div class="topic-card">
+                            <h4><i class="fas fa-align-left"></i> Dizi Hizalama</h4>
+                            <ul>
+                                <li><strong>Global:</strong> Needleman-Wunsch algoritması</li>
+                                <li><strong>Lokal:</strong> Smith-Waterman algoritması</li>
+                                <li><strong>BLAST:</strong> Hızlı dizi araması</li>
+                                <li><strong>Çoklu Hizalama:</strong> ClustalW, MUSCLE</li>
+                            </ul>
+                        </div>
+
+                        <div class="topic-card">
+                            <h4><i class="fas fa-database"></i> Biyolojik Veritabanları</h4>
+                            <ul>
+                                <li><strong>NCBI:</strong> GenBank, RefSeq, PubMed</li>
+                                <li><strong>UniProt:</strong> Protein dizileri</li>
+                                <li><strong>PDB:</strong> Protein yapıları</li>
+                                <li><strong>Ensembl:</strong> Genom tarayıcısı</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-phase">
+                    <div class="phase-header">
+                        <span class="phase-number">3</span>
+                        <h3>NGS Analizi (6-9 Ay)</h3>
+                    </div>
+                    <div class="phase-content">
+                        <div class="topic-card">
+                            <h4><i class="fas fa-dna"></i> RNA-Seq</h4>
+                            <ul>
+                                <li><strong>Hizalama:</strong> STAR, HISAT2</li>
+                                <li><strong>Diferansiyel İfade:</strong> DESeq2, edgeR</li>
+                                <li><strong>Fonksiyonel Analiz:</strong> GO, KEGG</li>
+                            </ul>
+                        </div>
+
+                        <div class="topic-card">
+                            <h4><i class="fas fa-dna"></i> Varyant Analizi</h4>
+                            <ul>
+                                <li><strong>Hizalama:</strong> BWA, Bowtie2</li>
+                                <li><strong>Varyant Çağırma:</strong> GATK, FreeBayes</li>
+                                <li><strong>Anotasyon:</strong> SnpEff, ANNOVAR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-phase">
+                    <div class="phase-header">
+                        <span class="phase-number">4</span>
+                        <h3>İleri Düzey (9-12 Ay)</h3>
+                    </div>
+                    <div class="phase-content">
+                        <div class="topic-card">
+                            <h4><i class="fas fa-brain"></i> Makine Öğrenmesi</h4>
+                            <ul>
+                                <li><strong>Denetimli:</strong> Sınıflandırma, regresyon</li>
+                                <li><strong>Denetimsiz:</strong> Kümeleme, PCA</li>
+                                <li><strong>Derin Öğrenme:</strong> TensorFlow, PyTorch</li>
+                            </ul>
+                        </div>
+
+                        <div class="topic-card">
+                            <h4><i class="fas fa-chart-bar"></i> Tek Hücre Analizi</h4>
+                            <ul>
+                                <li><strong>scRNA-seq:</strong> Seurat, Scanpy</li>
+                                <li><strong>Kümeleme:</strong> Hücre tipi tanımlama</li>
+                                <li><strong>Trajectory:</strong> Pseudotime analizi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="roadmap-phase">
+                    <div class="phase-header">
+                        <span class="phase-number">5</span>
+                        <h3>Uzmanlık (12+ Ay)</h3>
+                    </div>
+                    <div class="phase-content">
+                        <div class="topic-card">
+                            <h4><i class="fas fa-microscope"></i> Yapısal Biyoinformatik</h4>
+                            <ul>
+                                <li><strong>Yapı Tahmini:</strong> AlphaFold, RoseTTAFold</li>
+                                <li><strong>Moleküler Dinamik:</strong> GROMACS, AMBER</li>
+                                <li><strong>Docking:</strong> Protein-ligand etkileşimleri</li>
+                            </ul>
+                        </div>
+
+                        <div class="topic-card">
+                            <h4><i class="fas fa-user-md"></i> Klinik Biyoinformatik</h4>
+                            <ul>
+                                <li><strong>Kanser Genomik:</strong> Somatik mutasyonlar</li>
+                                <li><strong>Kişiselleştirilmiş Tıp:</strong> Farmakogenomik</li>
+                                <li><strong>Varyant Yorumlama:</strong> ACMG kılavuzları</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="araclar">
+        <div class="container">
+            <h2 class="section-title">Temel Araçlar ve Yazılımlar</h2>
+            <div class="tools-grid">
+                <div class="tool-category">
+                    <h3><i class="fas fa-code"></i> Programlama</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <strong>Python</strong>
+                            <p>Biopython, NumPy, Pandas, scikit-learn</p>
+                        </div>
+                        <div class="tool-item">
+                            <strong>R</strong>
+                            <p>Bioconductor, ggplot2, dplyr</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-category">
+                    <h3><i class="fas fa-dna"></i> Dizi Analizi</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <strong>BLAST</strong>
+                            <p>Dizi benzerlik araması</p>
+                        </div>
+                        <div class="tool-item">
+                            <strong>ClustalW</strong>
+                            <p>Çoklu dizi hizalama</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-category">
+                    <h3><i class="fas fa-chart-line"></i> NGS</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <strong>FastQC</strong>
+                            <p>Kalite kontrol</p>
+                        </div>
+                        <div class="tool-item">
+                            <strong>GATK</strong>
+                            <p>Varyant analizi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="projeler">
+        <div class="container">
+            <h2 class="section-title">Pratik Projeler</h2>
+            <div class="projects-grid">
+                <div class="project-card beginner">
+                    <div class="project-level">Başlangıç</div>
+                    <h3>DNA Analiz Aracı</h3>
+                    <p>GC içeriği, kompleman, transkripsiyon ve translasyon</p>
+                    <div class="project-skills">
+                        <span>Python</span>
+                        <span>Biopython</span>
+                    </div>
+                </div>
+
+                <div class="project-card intermediate">
+                    <div class="project-level">Orta</div>
+                    <h3>RNA-Seq Pipeline</h3>
+                    <p>FASTQ'dan diferansiyel ifade analizine</p>
+                    <div class="project-skills">
+                        <span>Bash</span>
+                        <span>R</span>
+                    </div>
+                </div>
+
+                <div class="project-card advanced">
+                    <div class="project-level">İleri</div>
+                    <h3>Protein Yapı Tahmini</h3>
+                    <p>ML ile sekonder yapı tahmini</p>
+                    <div class="project-skills">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="kaynaklar">
+        <div class="container">
+            <h2 class="section-title">Öğrenme Kaynakları</h2>
+            <div class="tools-grid">
+                <div class="tool-category">
+                    <h3><i class="fas fa-book"></i> Online Kurslar</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <strong>Coursera</strong>
+                            <p>Bioinformatics Specialization (UC San Diego)</p>
+                        </div>
+                        <div class="tool-item">
+                            <strong>Rosalind</strong>
+                            <p>Biyoinformatik problemleri</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-category">
+                    <h3><i class="fas fa-book-open"></i> Kitaplar</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <strong>Bioinformatics Algorithms</strong>
+                            <p>Compeau & Pevzner</p>
+                        </div>
+                        <div class="tool-item">
+                            <strong>Python for Bioinformatics</strong>
+                            <p>Sebastian Bassi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tool-category">
+                    <h3><i class="fas fa-users"></i> Topluluklar</h3>
+                    <div class="tool-list">
+                        <div class="tool-item">
+                            <strong>Biostars</strong>
+                            <p>Soru-cevap platformu</p>
+                        </div>
+                        <div class="tool-item">
+                            <strong>r/bioinformatics</strong>
+                            <p>Reddit topluluğu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="basari">
+        <div class="container">
+            <h2 class="section-title">Başarı İçin İpuçları</h2>
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Düzenli Pratik</h3>
+                    <p>Her gün en az 1-2 saat kod yazın ve biyoinformatik problemleri çözün</p>
+                </div>
+                <div class="intro-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Gerçek Projeler</h3>
+                    <p>Kendi projelerinizi geliştirin ve GitHub'da paylaşın</p>
+                </div>
+                <div class="intro-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Topluluk</h3>
+                    <p>Biyoinformatik topluluklarına katılın ve networking yapın</p>
+                </div>
+                <div class="intro-card">
+                    <i class="fas fa-newspaper"></i>
+                    <h3>Güncel Kalın</h3>
+                    <p>Bilimsel makaleleri takip edin ve yeni teknolojileri öğrenin</p>
+                </div>
+            </div>
+
+            <div class="topic-card" style="margin-top: 3rem;">
+                <h4><i class="fas fa-lightbulb"></i> Önemli Tavsiyeler</h4>
+                <ul>
+                    <li><strong>Temel Bilgileri Sağlamlaştırın:</strong> Moleküler biyoloji ve programlama temellerinizi güçlendirin</li>
+                    <li><strong>Hands-on Deneyim:</strong> Teorik bilgiyi pratikle pekiştirin, gerçek veri setleriyle çalışın</li>
+                    <li><strong>Dokümantasyon:</strong> Yazdığınız kodları ve analizleri detaylı dokümante edin</li>
+                    <li><strong>Versiyon Kontrolü:</strong> Git ve GitHub kullanmayı öğrenin</li>
+                    <li><strong>İletişim Becerileri:</strong> Bulgularınızı etkili şekilde sunmayı öğrenin</li>
+                    <li><strong>Interdisipliner Yaklaşım:</strong> Biyologlar ve bilgisayar bilimcilerle işbirliği yapın</li>
+                    <li><strong>Sürekli Öğrenme:</strong> Alan hızla gelişiyor, yeni araç ve teknikleri takip edin</li>
+                    <li><strong>Etik ve Sorumluluk:</strong> Veri gizliliği ve etik konulara dikkat edin</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Biyoinformatik Yolculuğu</p>
+            <p style="margin-top: 1rem; color: var(--text-secondary);">
+                <i class="fas fa-heart" style="color: #ef4444;"></i> 
+                Biyoinformatik alanında mükemmel olmak için sürekli öğrenin ve pratik yapın!
+            </p>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                <strong>Başarı Formülü:</strong> Tutku + Pratik + Sabır = Mükemmellik
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

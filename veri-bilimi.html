@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Bilimi - Detaylı Rehber</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-database"></i>
+                <span>Veri Bilimi</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="complete.html">Ana Sayfa</a></li>
+                <li><a href="#veri-yonetimi">Veri Yönetimi</a></li>
+                <li><a href="#analiz">Veri Analizi</a></li>
+                <li><a href="#gorsellestirme">Görselleştirme</a></li>
+                <li><a href="#buyuk-veri">Büyük Veri</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Veri Bilimi</h1>
+            <p class="hero-subtitle">Büyük Veri Yönetimi, Analiz ve Görselleştirme</p>
+        </div>
+    </section>
+
+    <section class="section" id="veri-yonetimi">
+        <div class="container">
+            <h2 class="section-title">Veri Yönetimi</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-database"></i> Veri Yapıları ve Formatlar</h4>
+                <ul>
+                    <li><strong>CSV:</strong> Comma-Separated Values, tablo verisi</li>
+                    <li><strong>JSON:</strong> JavaScript Object Notation, hiyerarşik veri</li>
+                    <li><strong>XML:</strong> Extensible Markup Language</li>
+                    <li><strong>Parquet:</strong> Sütunsal depolama, büyük veri için</li>
+                    <li><strong>HDF5:</strong> Hierarchical Data Format, bilimsel veri</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-server"></i> Veritabanları</h4>
+                <ul>
+                    <li><strong>İlişkisel (SQL):</strong> PostgreSQL, MySQL, SQLite</li>
+                    <li><strong>NoSQL:</strong> MongoDB, Cassandra, Redis</li>
+                    <li><strong>Graf Veritabanları:</strong> Neo4j, biyolojik ağlar için</li>
+                    <li><strong>SQL Komutları:</strong> SELECT, JOIN, WHERE, GROUP BY</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-broom"></i> Veri Temizleme</h4>
+                <ul>
+                    <li><strong>Eksik Veri:</strong> Silme, doldurma (mean, median, mode)</li>
+                    <li><strong>Aykırı Değerler:</strong> IQR, Z-score yöntemleri</li>
+                    <li><strong>Normalizasyon:</strong> Min-Max scaling, Z-score</li>
+                    <li><strong>Encoding:</strong> One-hot, label encoding</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="analiz">
+        <div class="container">
+            <h2 class="section-title">Veri Analizi</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fab fa-python"></i> Python Kütüphaneleri</h4>
+                <ul>
+                    <li><strong>NumPy:</strong> Sayısal hesaplamalar, array işlemleri</li>
+                    <li><strong>Pandas:</strong> DataFrame, veri manipülasyonu</li>
+                    <li><strong>SciPy:</strong> Bilimsel hesaplamalar, istatistik</li>
+                    <li><strong>scikit-learn:</strong> Makine öğrenmesi</li>
+                    <li><strong>Biopython:</strong> Biyoinformatik araçları</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-chart-bar"></i> Keşifsel Veri Analizi (EDA)</h4>
+                <ul>
+                    <li><strong>Tanımlayıcı İstatistikler:</strong> describe(), info()</li>
+                    <li><strong>Korelasyon Analizi:</strong> Pearson, Spearman</li>
+                    <li><strong>Dağılım Analizi:</strong> Histogram, box plot</li>
+                    <li><strong>Grup Analizi:</strong> groupby(), pivot_table()</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="gorsellestirme">
+        <div class="container">
+            <h2 class="section-title">Veri Görselleştirme</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-chart-pie"></i> Görselleştirme Kütüphaneleri</h4>
+                <ul>
+                    <li><strong>Matplotlib:</strong> Temel grafikler, özelleştirilebilir</li>
+                    <li><strong>Seaborn:</strong> İstatistiksel grafikler, güzel temalar</li>
+                    <li><strong>Plotly:</strong> İnteraktif grafikler</li>
+                    <li><strong>Bokeh:</strong> Web tabanlı görselleştirme</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-image"></i> Grafik Türleri</h4>
+                <ul>
+                    <li><strong>Scatter Plot:</strong> İki değişken ilişkisi</li>
+                    <li><strong>Line Plot:</strong> Zaman serisi, trend</li>
+                    <li><strong>Bar Chart:</strong> Kategorik karşılaştırma</li>
+                    <li><strong>Histogram:</strong> Dağılım analizi</li>
+                    <li><strong>Box Plot:</strong> Çeyrekler ve aykırı değerler</li>
+                    <li><strong>Heatmap:</strong> Korelasyon matrisi, gen ekspresyonu</li>
+                    <li><strong>Violin Plot:</strong> Dağılım yoğunluğu</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="buyuk-veri">
+        <div class="container">
+            <h2 class="section-title">Büyük Veri (Big Data)</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-server"></i> Büyük Veri Teknolojileri</h4>
+                <ul>
+                    <li><strong>Hadoop:</strong> Dağıtık depolama ve işleme (HDFS, MapReduce)</li>
+                    <li><strong>Spark:</strong> Hızlı veri işleme, in-memory</li>
+                    <li><strong>Dask:</strong> Python için paralel hesaplama</li>
+                    <li><strong>Cloud Platforms:</strong> AWS, Google Cloud, Azure</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-dna"></i> Genomik Veri Analizi</h4>
+                <ul>
+                    <li><strong>FASTQ İşleme:</strong> Milyonlarca read, kalite kontrol</li>
+                    <li><strong>BAM/SAM Dosyaları:</strong> Hizalanmış diziler, GB boyutunda</li>
+                    <li><strong>VCF Dosyaları:</strong> Varyant verileri, filtreleme</li>
+                    <li><strong>Pipeline Yönetimi:</strong> Snakemake, Nextflow</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-tachometer-alt"></i> Performans Optimizasyonu</h4>
+                <ul>
+                    <li><strong>Vektörizasyon:</strong> NumPy array işlemleri</li>
+                    <li><strong>Paralel İşleme:</strong> multiprocessing, joblib</li>
+                    <li><strong>Chunk İşleme:</strong> Büyük dosyaları parça parça okuma</li>
+                    <li><strong>Caching:</strong> Hesaplama sonuçlarını saklama</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p><a href="complete.html" style="color: var(--primary-color);">← Ana Sayfaya Dön</a></p>
+            <p>&copy; 2024 Biyoinformatik Yolculuğu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

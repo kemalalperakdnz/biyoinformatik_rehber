@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biyoinformatik Mükemmellik Yol Haritası</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-dna"></i>
+                <span>Biyoinformatik Yolculuğu</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#giris">Giriş</a></li>
+                <li><a href="#temeller">Temeller</a></li>
+                <li><a href="#yol-haritasi">Yol Haritası</a></li>
+                <li><a href="#araclar">Araçlar</a></li>
+                <li><a href="#projeler">Projeler</a></li>
+                <li><a href="#kaynaklar">Kaynaklar</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" id="giris">
+        <div class="hero-content">
+            <h1 class="hero-title">Biyoinformatik Mükemmellik Yolculuğu</h1>
+            <p class="hero-subtitle">Moleküler biyoloji ve bilgisayar biliminin kesişiminde uzman olun</p>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <i class="fas fa-book"></i>
+                    <h3>10+ Modül</h3>
+                    <p>Kapsamlı Eğitim</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code"></i>
+                    <h3>50+ Araç</h3>
+                    <p>Pratik Uygulamalar</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>20+ Proje</h3>
+                    <p>Gerçek Deneyim</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="temeller">
+        <div class="container">
+            <h2 class="section-title">Biyoinformatik Nedir?</h2>
+            <div class="intro-grid">
+                <a href="biyoloji.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-dna"></i>
+                        <h3>Biyoloji</h3>
+                        <p>DNA, RNA, protein dizileri ve biyolojik sistemlerin anlaşılması</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+                <a href="bilgisayar-bilimi.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Bilgisayar Bilimi</h3>
+                        <p>Algoritmalar, veri yapıları ve yazılım geliştirme</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+                <a href="istatistik.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>İstatistik</h3>
+                        <p>Veri analizi, makine öğrenmesi ve istatistiksel modelleme</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+                <a href="veri-bilimi.html" style="text-decoration: none; color: inherit;">
+                    <div class="intro-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Veri Bilimi</h3>
+                        <p>Büyük veri yönetimi ve görselleştirme</p>
+                        <p style="margin-top: 1rem; color: var(--primary-color); font-weight: bold;">
+                            <i class="fas fa-arrow-right"></i> Detaylı İncele
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <iframe src="content.html" style="display:none;" onload="loadContent(this)"></iframe>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Biyoinformatik Yolculuğu. Başarılar dileriz!</p>
+            <p style="margin-top: 1rem; color: var(--text-secondary);">
+                <i class="fas fa-heart" style="color: #ef4444;"></i> 
+                Biyoinformatik alanında mükemmel olmak için sürekli öğrenin ve pratik yapın!
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function loadContent(iframe) {
+            const content = iframe.contentDocument.body.innerHTML;
+            document.body.insertBefore(
+                iframe.contentDocument.body.firstChild, 
+                document.querySelector('.footer')
+            );
+        }
+    </script>
+</body>
+</html>

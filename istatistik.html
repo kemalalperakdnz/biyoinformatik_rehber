@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstatistik - Detaylı Rehber</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-chart-line"></i>
+                <span>İstatistik</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="complete.html">Ana Sayfa</a></li>
+                <li><a href="#temel">Temel İstatistik</a></li>
+                <li><a href="#olasilik">Olasılık</a></li>
+                <li><a href="#hipotez">Hipotez Testleri</a></li>
+                <li><a href="#ml">Makine Öğrenmesi</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">İstatistik ve Makine Öğrenmesi</h1>
+            <p class="hero-subtitle">Veri Analizi, Olasılık ve İstatistiksel Modelleme</p>
+        </div>
+    </section>
+
+    <section class="section" id="temel">
+        <div class="container">
+            <h2 class="section-title">Temel İstatistik</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-calculator"></i> Merkezi Eğilim Ölçüleri</h4>
+                <ul>
+                    <li><strong>Ortalama (Mean):</strong> Σx/n, aritmetik ortalama</li>
+                    <li><strong>Medyan (Median):</strong> Ortadaki değer, aykırı değerlere dayanıklı</li>
+                    <li><strong>Mod (Mode):</strong> En sık görülen değer</li>
+                    <li><strong>Geometrik Ortalama:</strong> Çarpımsal veriler için</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-chart-area"></i> Dağılım Ölçüleri</h4>
+                <ul>
+                    <li><strong>Varyans:</strong> σ² = Σ(x-μ)²/n</li>
+                    <li><strong>Standart Sapma:</strong> σ = √varyans</li>
+                    <li><strong>Çeyrekler (Quartiles):</strong> Q1, Q2 (medyan), Q3</li>
+                    <li><strong>IQR:</strong> Q3 - Q1, aykırı değer tespiti</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-bell"></i> Olasılık Dağılımları</h4>
+                <ul>
+                    <li><strong>Normal Dağılım:</strong> Gauss, çan eğrisi, μ ve σ</li>
+                    <li><strong>Binom Dağılımı:</strong> n deneme, p başarı olasılığı</li>
+                    <li><strong>Poisson Dağılımı:</strong> Nadir olaylar, λ parametresi</li>
+                    <li><strong>t-Dağılımı:</strong> Küçük örneklemler</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="olasilik">
+        <div class="container">
+            <h2 class="section-title">Olasılık Teorisi</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-dice"></i> Temel Kavramlar</h4>
+                <ul>
+                    <li><strong>Olasılık:</strong> P(A) = İstenen/Toplam</li>
+                    <li><strong>Koşullu Olasılık:</strong> P(A|B) = P(A∩B)/P(B)</li>
+                    <li><strong>Bayes Teoremi:</strong> P(A|B) = P(B|A)P(A)/P(B)</li>
+                    <li><strong>Bağımsızlık:</strong> P(A∩B) = P(A)×P(B)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="hipotez">
+        <div class="container">
+            <h2 class="section-title">Hipotez Testleri</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-vial"></i> Temel Testler</h4>
+                <ul>
+                    <li><strong>t-testi:</strong> İki grup ortalaması karşılaştırma</li>
+                    <li><strong>ANOVA:</strong> Çoklu grup karşılaştırma</li>
+                    <li><strong>Chi-square:</strong> Kategorik veri analizi</li>
+                    <li><strong>p-değeri:</strong> İstatistiksel anlamlılık (genelde <0.05)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="ml">
+        <div class="container">
+            <h2 class="section-title">Makine Öğrenmesi</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-brain"></i> Denetimli Öğrenme</h4>
+                <ul>
+                    <li><strong>Linear Regression:</strong> Sürekli değer tahmini</li>
+                    <li><strong>Logistic Regression:</strong> İkili sınıflandırma</li>
+                    <li><strong>Decision Trees:</strong> Karar ağaçları</li>
+                    <li><strong>Random Forest:</strong> Ensemble method</li>
+                    <li><strong>SVM:</strong> Support Vector Machines</li>
+                    <li><strong>Neural Networks:</strong> Derin öğrenme</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-project-diagram"></i> Denetimsiz Öğrenme</h4>
+                <ul>
+                    <li><strong>K-means:</strong> Kümeleme algoritması</li>
+                    <li><strong>Hierarchical Clustering:</strong> Hiyerarşik kümeleme</li>
+                    <li><strong>PCA:</strong> Boyut indirgeme</li>
+                    <li><strong>t-SNE:</strong> Görselleştirme için boyut indirgeme</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-check-circle"></i> Model Değerlendirme</h4>
+                <ul>
+                    <li><strong>Accuracy:</strong> Doğru tahmin oranı</li>
+                    <li><strong>Precision:</strong> Pozitif tahminlerin doğruluğu</li>
+                    <li><strong>Recall:</strong> Gerçek pozitifleri bulma oranı</li>
+                    <li><strong>F1-Score:</strong> Precision ve Recall harmonik ortalaması</li>
+                    <li><strong>ROC-AUC:</strong> Sınıflandırma performansı</li>
+                    <li><strong>Cross-Validation:</strong> Model genelleme yeteneği</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p><a href="complete.html" style="color: var(--primary-color);">← Ana Sayfaya Dön</a></p>
+            <p>&copy; 2024 Biyoinformatik Yolculuğu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

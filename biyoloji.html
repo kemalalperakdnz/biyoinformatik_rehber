@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moleküler Biyoloji - Detaylı Rehber</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-dna"></i>
+                <span>Moleküler Biyoloji</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="complete.html">Ana Sayfa</a></li>
+                <li><a href="#dna">DNA</a></li>
+                <li><a href="#rna">RNA</a></li>
+                <li><a href="#protein">Proteinler</a></li>
+                <li><a href="#dogma">Merkezi Dogma</a></li>
+                <li><a href="#genler">Genler</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Moleküler Biyoloji</h1>
+            <p class="hero-subtitle">DNA, RNA, Protein Dizileri ve Biyolojik Sistemlerin Derinlemesine İncelenmesi</p>
+        </div>
+    </section>
+
+    <section class="section" id="dna">
+        <div class="container">
+            <h2 class="section-title">DNA - Deoksiribonükleik Asit</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-dna"></i> DNA Yapısı ve Kimyası</h4>
+                <ul>
+                    <li><strong>Nükleotid Bileşenleri:</strong>
+                        <ul>
+                            <li>Şeker: Deoksiriboz (5 karbonlu şeker, 2' pozisyonunda OH grubu yok)</li>
+                            <li>Fosfat Grubu: DNA omurgasını oluşturur, negatif yüklü</li>
+                            <li>Azotlu Bazlar: Adenin (A), Timin (T), Guanin (G), Sitozin (C)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Pürin Bazlar (Çift Halkalı):</strong>
+                        <ul>
+                            <li>Adenin (A): 6 üyeli ve 5 üyeli halka, amino grubu içerir</li>
+                            <li>Guanin (G): 6 üyeli ve 5 üyeli halka, keto ve amino grubu</li>
+                        </ul>
+                    </li>
+                    <li><strong>Pirimidin Bazlar (Tek Halkalı):</strong>
+                        <ul>
+                            <li>Timin (T): 6 üyeli halka, metil grubu içerir</li>
+                            <li>Sitozin (C): 6 üyeli halka, amino grubu içerir</li>
+                        </ul>
+                    </li>
+                    <li><strong>Chargaff Kuralları:</strong>
+                        <ul>
+                            <li>A miktarı = T miktarı (A-T baz çifti, 2 hidrojen bağı)</li>
+                            <li>G miktarı = C miktarı (G-C baz çifti, 3 hidrojen bağı)</li>
+                            <li>Pürin miktarı = Pirimidin miktarı</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-project-diagram"></i> DNA Çift Sarmal Yapısı (Watson-Crick Modeli)</h4>
+                <ul>
+                    <li><strong>Yapısal Özellikler:</strong>
+                        <ul>
+                            <li>İki antiparalel polinükleotid zinciri (5'→3' ve 3'→5')</li>
+                            <li>Sağa dönük sarmal (B-DNA, en yaygın form)</li>
+                            <li>Çap: ~2 nm (20 Å)</li>
+                            <li>Bir tam tur: 10.5 baz çifti, 3.4 nm yükseklik</li>
+                            <li>Baz çiftleri arası mesafe: 0.34 nm</li>
+                        </ul>
+                    </li>
+                    <li><strong>DNA Formları:</strong>
+                        <ul>
+                            <li>B-DNA: Standart form, sağa sarmal, fizyolojik koşullarda</li>
+                            <li>A-DNA: Daha kompakt, RNA-DNA hibridlerinde</li>
+                            <li>Z-DNA: Sola sarmal, GC zengin bölgelerde, gen regülasyonu</li>
+                        </ul>
+                    </li>
+                    <li><strong>Major ve Minor Groove:</strong>
+                        <ul>
+                            <li>Major Groove: Geniş oluk, protein-DNA etkileşimi için önemli</li>
+                            <li>Minor Groove: Dar oluk, bazı düzenleyici proteinler bağlanır</li>
+                        </ul>
+                    </li>
+                    <li><strong>DNA Stabilizasyonu:</strong>
+                        <ul>
+                            <li>Hidrojen Bağları: Baz çiftleri arasında (A-T: 2, G-C: 3)</li>
+                            <li>Van der Waals Kuvvetleri: Üst üste binen bazlar arası</li>
+                            <li>Hidrofobik Etkileşimler: Bazların iç kısmı hidrofobik</li>
+                            <li>İyonik Etkileşimler: Fosfat grupları ve katyonlar</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-layer-group"></i> DNA Organizasyonu ve Paketleme</h4>
+                <ul>
+                    <li><strong>Prokaryotlarda DNA:</strong>
+                        <ul>
+                            <li>Sirküler kromozom (bakteriyel kromozom)</li>
+                            <li>Nükleoid bölgesinde, membransız</li>
+                            <li>Süpercoiling: Negatif süpercoiling, topoizomerazlar</li>
+                            <li>Plazmidler: Küçük, sirküler, ekstra-kromozomal DNA</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ökaryotlarda DNA:</strong>
+                        <ul>
+                            <li>Lineer kromozomlar, çekirdek içinde</li>
+                            <li>Histon Proteinleri: H1, H2A, H2B, H3, H4</li>
+                            <li>Nükleozom: DNA'nın histon oktameri etrafında sarılması (147 baz çifti)</li>
+                            <li>Kromatosom: Nükleozom + H1 histonu</li>
+                            <li>30 nm Fiber: Nükleozomların spiral yapısı</li>
+                            <li>Kromatin: Gevşek (euchromatin) ve sıkı (heterochromatin)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Kromozom Yapısı:</strong>
+                        <ul>
+                            <li>Sentromer: Kinetokor bağlanma bölgesi, mitoz/meiozda önemli</li>
+                            <li>Telomer: Kromozom uçları, TTAGGG tekrarları (insanda)</li>
+                            <li>Telomeraz: Telomer uzatma enzimi, yaşlanma ile ilişkili</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-copy"></i> DNA Replikasyonu</h4>
+                <ul>
+                    <li><strong>Replikasyon İlkeleri:</strong>
+                        <ul>
+                            <li>Yarı-Koruyucu (Semiconservative): Her yeni DNA bir eski, bir yeni zincir</li>
+                            <li>Çift Yönlü (Bidirectional): Replikasyon başlangıcından iki yöne</li>
+                            <li>Yarı-Süreksiz (Semidiscontinuous): Leading ve lagging strand</li>
+                        </ul>
+                    </li>
+                    <li><strong>Replikasyon Mekanizması:</strong>
+                        <ul>
+                            <li>Origin of Replication (ori): Başlangıç noktası</li>
+                            <li>Helikaz: DNA sarmalını açar, replikasyon çatalı oluşturur</li>
+                            <li>SSB Proteinleri: Tek zinciri stabilize eder</li>
+                            <li>Primazlar: RNA primer sentezler (8-12 nükleotid)</li>
+                            <li>DNA Polimeraz III: Ana sentez enzimi (prokaryot)</li>
+                            <li>DNA Polimeraz I: Primer kaldırma ve boşluk doldurma</li>
+                            <li>Ligaz: Okazaki fragmentlerini birleştirir</li>
+                            <li>Topoizomeraz: Süpercoiling'i çözer</li>
+                        </ul>
+                    </li>
+                    <li><strong>Leading Strand (Öncü Zincir):</strong>
+                        <ul>
+                            <li>Sürekli sentez, 5'→3' yönünde</li>
+                            <li>Tek primer yeterli</li>
+                        </ul>
+                    </li>
+                    <li><strong>Lagging Strand (Geç Zincir):</strong>
+                        <ul>
+                            <li>Süreksiz sentez, Okazaki fragmentleri (100-200 nt prokaryot, 100-400 nt ökaryot)</li>
+                            <li>Her fragment için yeni primer gerekli</li>
+                        </ul>
+                    </li>
+                    <li><strong>Hata Düzeltme:</strong>
+                        <ul>
+                            <li>Proofreading: DNA polimeraz 3'→5' ekzonükleaz aktivitesi</li>
+                            <li>Mismatch Repair: MutS, MutL, MutH proteinleri</li>
+                            <li>Hata oranı: ~1/10^9 nükleotid</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-tools"></i> DNA Onarım Mekanizmaları</h4>
+                <ul>
+                    <li><strong>Base Excision Repair (BER):</strong>
+                        <ul>
+                            <li>Hasarlı bazın glikosilazlar tarafından çıkarılması</li>
+                            <li>AP endonükleaz, DNA polimeraz, ligaz</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nucleotide Excision Repair (NER):</strong>
+                        <ul>
+                            <li>Büyük DNA lezyonları (UV hasarı, timin dimerleri)</li>
+                            <li>24-32 nükleotidlik segment çıkarılır</li>
+                            <li>Xeroderma pigmentosum: NER defekti</li>
+                        </ul>
+                    </li>
+                    <li><strong>Double-Strand Break Repair:</strong>
+                        <ul>
+                            <li>Homologous Recombination (HR): Kardeş kromatid kullanılır</li>
+                            <li>Non-Homologous End Joining (NHEJ): Uçlar direkt birleştirilir</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="rna">
+        <div class="container">
+            <h2 class="section-title">RNA - Ribonükleik Asit</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-stream"></i> RNA Yapısı ve DNA'dan Farkları</h4>
+                <ul>
+                    <li><strong>Kimyasal Farklar:</strong>
+                        <ul>
+                            <li>Şeker: Riboz (2' pozisyonunda OH grubu var)</li>
+                            <li>Baz: Timin yerine Urasil (U)</li>
+                            <li>Yapı: Genellikle tek zincirli</li>
+                            <li>Stabilite: DNA'dan daha az stabil (2'-OH reaktif)</li>
+                        </ul>
+                    </li>
+                    <li><strong>RNA Sekonder Yapıları:</strong>
+                        <ul>
+                            <li>Hairpin (Saç Tokası): Kısa palindromik diziler</li>
+                            <li>Stem-Loop: Kök ve ilmik yapısı</li>
+                            <li>Bulge: Tek taraflı çıkıntı</li>
+                            <li>Internal Loop: İki taraflı çıkıntı</li>
+                            <li>Pseudoknot: Kompleks katlama</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-envelope"></i> mRNA - Mesajcı RNA</h4>
+                <ul>
+                    <li><strong>Yapı ve Fonksiyon:</strong>
+                        <ul>
+                            <li>Genetik bilgiyi DNA'dan ribozoma taşır</li>
+                            <li>Kodon: 3 nükleotidlik amino asit şifresi</li>
+                            <li>Prokaryot mRNA: Polisistronik (birden fazla gen)</li>
+                            <li>Ökaryot mRNA: Monosistronik (tek gen)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ökaryot mRNA İşlenmesi:</strong>
+                        <ul>
+                            <li>5' Capping: 7-metilguanozin başlık, koruma ve translasyon başlatma</li>
+                            <li>3' Polyadenilasyon: Poly(A) kuyruğu (~200 A), stabilite</li>
+                            <li>Splicing: İntronların çıkarılması, eksonların birleştirilişi</li>
+                            <li>Alternative Splicing: Farklı protein izoformları</li>
+                        </ul>
+                    </li>
+                    <li><strong>Splicing Mekanizması:</strong>
+                        <ul>
+                            <li>Spliceosome: snRNA ve proteinlerden oluşur</li>
+                            <li>Splice Sites: 5' donor (GU), 3' acceptor (AG), branch point (A)</li>
+                            <li>U1, U2, U4, U5, U6 snRNP'ler</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-truck"></i> tRNA - Transfer RNA</h4>
+                <ul>
+                    <li><strong>Yapı:</strong>
+                        <ul>
+                            <li>Yonca yaprağı (cloverleaf) 2D yapısı</li>
+                            <li>L-şeklinde 3D yapı</li>
+                            <li>76-90 nükleotid uzunluğunda</li>
+                        </ul>
+                    </li>
+                    <li><strong>Fonksiyonel Bölgeler:</strong>
+                        <ul>
+                            <li>Acceptor Stem: 3' ucu CCA dizisi, amino asit bağlanır</li>
+                            <li>Anticodon Loop: mRNA kodonunu tanır (3 nükleotid)</li>
+                            <li>D Loop: Dihidrouridin içerir</li>
+                            <li>TψC Loop: Pseudouridin içerir</li>
+                            <li>Variable Loop: Uzunluk değişken</li>
+                        </ul>
+                    </li>
+                    <li><strong>Modifiye Bazlar:</strong>
+                        <ul>
+                            <li>Pseudouridin (ψ), Dihidrouridin (D)</li>
+                            <li>İnozin (I): Wobble pozisyonunda</li>
+                            <li>100'den fazla farklı modifikasyon</li>
+                        </ul>
+                    </li>
+                    <li><strong>Aminoasil-tRNA Sentetazlar:</strong>
+                        <ul>
+                            <li>Her amino asit için spesifik enzim</li>
+                            <li>İki aşamalı reaksiyon: Aktivasyon + Transfer</li>
+                            <li>Proofreading mekanizması</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-industry"></i> rRNA - Ribozomal RNA</h4>
+                <ul>
+                    <li><strong>Prokaryot Ribozom (70S):</strong>
+                        <ul>
+                            <li>50S Alt Birim: 23S rRNA (2904 nt), 5S rRNA (120 nt), 31 protein</li>
+                            <li>30S Alt Birim: 16S rRNA (1542 nt), 21 protein</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ökaryot Ribozom (80S):</strong>
+                        <ul>
+                            <li>60S Alt Birim: 28S rRNA, 5.8S rRNA, 5S rRNA, 49 protein</li>
+                            <li>40S Alt Birim: 18S rRNA, 33 protein</li>
+                        </ul>
+                    </li>
+                    <li><strong>Fonksiyonlar:</strong>
+                        <ul>
+                            <li>Peptidil transferaz aktivitesi (ribozim)</li>
+                            <li>mRNA bağlanma ve pozisyonlama</li>
+                            <li>tRNA bağlanma siteleri (A, P, E)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-magic"></i> Diğer RNA Türleri</h4>
+                <ul>
+                    <li><strong>snRNA (Small Nuclear RNA):</strong>
+                        <ul>
+                            <li>Splicing'de görevli (U1, U2, U4, U5, U6)</li>
+                            <li>100-300 nükleotid</li>
+                        </ul>
+                    </li>
+                    <li><strong>miRNA (microRNA):</strong>
+                        <ul>
+                            <li>Gen ekspresyonu regülasyonu</li>
+                            <li>~22 nükleotid, post-transkripsiyonel susturma</li>
+                            <li>mRNA degradasyonu veya translasyon inhibisyonu</li>
+                        </ul>
+                    </li>
+                    <li><strong>siRNA (Small Interfering RNA):</strong>
+                        <ul>
+                            <li>RNA interferans (RNAi)</li>
+                            <li>21-23 nükleotid, çift zincirli</li>
+                            <li>Spesifik gen susturma</li>
+                        </ul>
+                    </li>
+                    <li><strong>lncRNA (Long Non-coding RNA):</strong>
+                        <ul>
+                            <li>>200 nükleotid</li>
+                            <li>Epigenetik regülasyon, kromatin modifikasyonu</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ribozimler:</strong>
+                        <ul>
+                            <li>Katalitik aktiviteye sahip RNA</li>
+                            <li>Hammerhead, hairpin, ribonükleaz P</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="protein">
+        <div class="container">
+            <h2 class="section-title">Proteinler</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-shapes"></i> Protein Yapısı ve Amino Asitler</h4>
+                <ul>
+                    <li><strong>20 Standart Amino Asit:</strong> Glisin, Alanin, Valin, Lösin, İzolösin, Metionin, Fenilalanin, Triptofan, Prolin, Serin, Treonin, Sistein, Tirozin, Asparagin, Glutamin, Aspartik asit, Glutamik asit, Lizin, Arginin, Histidin</li>
+                    <li><strong>Amino Asit Sınıflandırması:</strong>
+                        <ul>
+                            <li>Polar/Nonpolar: Hidrofobik (Ala, Val, Leu) vs Hidrofilik (Ser, Thr, Asn)</li>
+                            <li>Yüklü: Pozitif (Lys, Arg, His), Negatif (Asp, Glu)</li>
+                            <li>Aromatik: Phe, Tyr, Trp</li>
+                            <li>Özel: Pro (kink oluşturur), Cys (disülfid köprüsü), Gly (en küçük)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Peptid Bağı:</strong> Karboksil (-COOH) ve amino (-NH2) grupları arası, planar yapı, kısmi çift bağ karakteri</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-layer-group"></i> Protein Yapı Seviyeleri</h4>
+                <ul>
+                    <li><strong>Primer Yapı:</strong> Amino asit dizisi, peptid bağları ile bağlı, genetik kod tarafından belirlenir</li>
+                    <li><strong>Sekonder Yapı:</strong>
+                        <ul>
+                            <li>α-Helix (Alfa Sarmal): Sağa sarmal, 3.6 amino asit/tur, hidrojen bağları</li>
+                            <li>β-Sheet (Beta Tabaka): Paralel veya antiparalel zincirler, hidrojen bağları</li>
+                            <li>β-Turn: Yön değiştirme bölgeleri</li>
+                            <li>Random Coil: Düzensiz bölgeler</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tersiyer Yapı:</strong> 3D katlama, hidrofobik etkileşimler, disülfid köprüleri, iyonik bağlar, hidrojen bağları</li>
+                    <li><strong>Kuaterner Yapı:</strong> Birden fazla polipeptid zincirinin birleşmesi (örn: Hemoglobin - 4 alt birim)</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-cogs"></i> Protein Fonksiyonları</h4>
+                <ul>
+                    <li><strong>Enzimler:</strong> Biyokimyasal reaksiyonları katalize eder (DNA polimeraz, tripsin)</li>
+                    <li><strong>Yapısal Proteinler:</strong> Hücre iskeleti (aktin, miyozin, keratin, kolajen)</li>
+                    <li><strong>Taşıyıcı Proteinler:</strong> Molekül transportu (hemoglobin - O2, transferrin - Fe)</li>
+                    <li><strong>Sinyal Proteinleri:</strong> Hormonlar (insülin, büyüme hormonu)</li>
+                    <li><strong>Savunma Proteinleri:</strong> Antikorlar (immünoglobulinler)</li>
+                    <li><strong>Düzenleyici Proteinler:</strong> Transkripsiyon faktörleri, gen ekspresyon kontrolü</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-recycle"></i> Protein Katlanması ve Modifikasyonlar</h4>
+                <ul>
+                    <li><strong>Chaperon Proteinler:</strong> Doğru katlanmaya yardım eder (HSP70, HSP90, GroEL/GroES)</li>
+                    <li><strong>Post-Translasyonel Modifikasyonlar:</strong>
+                        <ul>
+                            <li>Fosforilasyon: Serin, treonin, tirozin üzerinde, sinyal iletimi</li>
+                            <li>Glikosilasyon: Şeker eklenmesi, protein stabilitesi</li>
+                            <li>Asetilasyon: Histon modifikasyonu, gen regülasyonu</li>
+                            <li>Ubiquitinasyon: Protein degradasyonu için işaretleme</li>
+                            <li>Metilasyon: Histon ve DNA modifikasyonu</li>
+                        </ul>
+                    </li>
+                    <li><strong>Protein Yanlış Katlanması:</strong> Alzheimer (amiloid), Parkinson (α-synuclein), Prion hastalıkları</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="dogma">
+        <div class="container">
+            <h2 class="section-title">Merkezi Dogma</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-arrow-right"></i> Bilgi Akışı: DNA → RNA → Protein</h4>
+                <ul>
+                    <li><strong>Temel Prensip:</strong> Genetik bilgi DNA'da depolanır, RNA'ya kopyalanır (transkripsiyon), proteine çevrilir (translasyon)</li>
+                    <li><strong>İstisnalar:</strong> Ters transkripsiyon (retrovirusler), RNA replikasyonu (RNA virusları), RNA düzenleme</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-copy"></i> Transkripsiyon (DNA → RNA)</h4>
+                <ul>
+                    <li><strong>RNA Polimeraz:</strong>
+                        <ul>
+                            <li>Prokaryot: Tek RNA polimeraz, sigma faktörü ile promoter tanıma</li>
+                            <li>Ökaryot: RNA Pol I (rRNA), RNA Pol II (mRNA), RNA Pol III (tRNA, 5S rRNA)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Transkripsiyon Aşamaları:</strong>
+                        <ul>
+                            <li>İnisiasyon: Promoter tanıma (TATA box, CAAT box), transkripsiyon faktörleri</li>
+                            <li>Elongasyon: RNA zinciri uzaması, 5'→3' yönünde sentez</li>
+                            <li>Terminasyon: Rho-bağımlı veya Rho-bağımsız (prokaryot), poliadenilasyon sinyali (ökaryot)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ökaryot mRNA İşlenmesi:</strong>
+                        <ul>
+                            <li>5' Capping: 7-metilguanozin başlık, koruma ve ribozom tanıma</li>
+                            <li>Splicing: İntronların çıkarılması, eksonların birleştirilmesi, spliceosome</li>
+                            <li>3' Polyadenilasyon: Poly(A) kuyruğu eklenmesi (~200 A), mRNA stabilitesi</li>
+                            <li>Alternatif Splicing: Bir genden farklı protein izoformları</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-language"></i> Translasyon (RNA → Protein)</h4>
+                <ul>
+                    <li><strong>Genetik Kod:</strong>
+                        <ul>
+                            <li>Triplet Kod: 3 nükleotid = 1 amino asit</li>
+                            <li>64 Kodon: 61 amino asit kodlayan + 3 stop kodon (UAA, UAG, UGA)</li>
+                            <li>Start Kodon: AUG (Metionin)</li>
+                            <li>Dejenere: Bir amino asit birden fazla kodon ile kodlanabilir</li>
+                            <li>Evrensel: Tüm organizmalarda aynı (küçük istisnalar var)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Translasyon Mekanizması:</strong>
+                        <ul>
+                            <li>İnisiasyon: Ribozom alt birimleri, mRNA, başlatıcı tRNA (Met-tRNA), başlatma faktörleri</li>
+                            <li>Elongasyon: Aminoasil-tRNA bağlanması, peptid bağı oluşumu, translokasyon</li>
+                            <li>Terminasyon: Stop kodon tanıma, salıverme faktörleri, ribozom ayrılması</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ribozom Siteleri:</strong>
+                        <ul>
+                            <li>A Site (Aminoacyl): Yeni aminoasil-tRNA gelir</li>
+                            <li>P Site (Peptidyl): Büyüyen peptid zinciri</li>
+                            <li>E Site (Exit): Boş tRNA çıkar</li>
+                        </ul>
+                    </li>
+                    <li><strong>Wobble Hipotezi:</strong> Anticodon'un 3. pozisyonu (5' ucu) esnek eşleşme, bir tRNA birden fazla kodonu tanıyabilir</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-sliders-h"></i> Gen Ekspresyon Regülasyonu</h4>
+                <ul>
+                    <li><strong>Transkripsiyon Seviyesi:</strong>
+                        <ul>
+                            <li>Prokaryot: Operon sistemi (lac operon, trp operon), pozitif/negatif regülasyon</li>
+                            <li>Ökaryot: Transkripsiyon faktörleri, enhancer/silencer, kromatin yeniden yapılandırma</li>
+                        </ul>
+                    </li>
+                    <li><strong>Post-Transkripsiyon:</strong> Alternatif splicing, mRNA stabilitesi, miRNA regülasyonu</li>
+                    <li><strong>Translasyon Seviyesi:</strong> Ribozom bağlanma, translasyon faktörleri, uORF</li>
+                    <li><strong>Post-Translasyon:</strong> Protein modifikasyonları, degradasyon, lokalizasyon</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="genler">
+        <div class="container">
+            <h2 class="section-title">Genler ve Genom Organizasyonu</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-dna"></i> Gen Yapısı</h4>
+                <ul>
+                    <li><strong>Prokaryot Gen:</strong>
+                        <ul>
+                            <li>Promoter: -10 box (Pribnow box), -35 box, RNA polimeraz bağlanma</li>
+                            <li>Kodlayan Bölge: Sürekli, intron yok</li>
+                            <li>Terminator: Rho-bağımlı veya Rho-bağımsız</li>
+                            <li>Operon: Birden fazla gen birlikte düzenlenir (polisistronik mRNA)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ökaryot Gen:</strong>
+                        <ul>
+                            <li>Promoter: TATA box (-25), CAAT box (-75), GC box</li>
+                            <li>Enhancer: Uzak mesafeden gen aktivasyonu, doku-spesifik</li>
+                            <li>Silencer: Gen susturma</li>
+                            <li>Ekson: Kodlayan diziler, proteine çevrilir</li>
+                            <li>İntron: Kodlamayan diziler, splicing ile çıkarılır</li>
+                            <li>5' UTR: Translasyon regülasyonu</li>
+                            <li>3' UTR: mRNA stabilitesi, poliadenilasyon sinyali (AAUAAA)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-book"></i> Genom Organizasyonu</h4>
+                <ul>
+                    <li><strong>İnsan Genomu:</strong>
+                        <ul>
+                            <li>~3.2 milyar baz çifti</li>
+                            <li>~20,000-25,000 protein kodlayan gen</li>
+                            <li>Kodlayan bölge: ~1.5% (geri kalanı non-coding)</li>
+                            <li>23 çift kromozom (22 otozomal + XX veya XY)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tekrarlayan Diziler:</strong>
+                        <ul>
+                            <li>Tandem Tekrarlar: Satellit DNA, mikrosatellit (STR), minisatellit (VNTR)</li>
+                            <li>İnterspersed Tekrarlar: SINE (Alu, ~1.1 milyon kopya), LINE (L1)</li>
+                            <li>Transpozonlar: DNA transpozonlar, retrotranspozonlar</li>
+                        </ul>
+                    </li>
+                    <li><strong>Non-coding RNA Genleri:</strong> rRNA, tRNA, snRNA, miRNA, lncRNA genleri</li>
+                    <li><strong>Pseudogenler:</strong> İşlevsiz gen kopyaları, evrimsel kalıntılar</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-palette"></i> Epigenetik</h4>
+                <ul>
+                    <li><strong>DNA Metilasyonu:</strong>
+                        <ul>
+                            <li>CpG adaları: Sitozin metilasyonu (5-metilsitozin)</li>
+                            <li>Gen susturma: Promoter metilasyonu → transkripsiyon inhibisyonu</li>
+                            <li>Genomik imprinting: Ebeveyn-spesifik gen ekspresyonu</li>
+                            <li>X-inaktivasyon: Kadınlarda bir X kromozomu susturulur</li>
+                        </ul>
+                    </li>
+                    <li><strong>Histon Modifikasyonları:</strong>
+                        <ul>
+                            <li>Asetilasyon: Genellikle gen aktivasyonu (gevşek kromatin)</li>
+                            <li>Metilasyon: H3K4me3 (aktivasyon), H3K9me3, H3K27me3 (susturma)</li>
+                            <li>Fosforilasyon: Mitoz sırasında kromozom kondensasyonu</li>
+                            <li>Ubiquitinasyon: Transkripsiyon regülasyonu</li>
+                        </ul>
+                    </li>
+                    <li><strong>Kromatin Yeniden Yapılandırma:</strong> SWI/SNF kompleksleri, nükleozom pozisyonlama</li>
+                    <li><strong>Epigenetik Kalıtım:</strong> Mitoz ve meioz boyunca aktarılabilir, çevresel faktörlerden etkilenir</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-random"></i> Genetik Varyasyon</h4>
+                <ul>
+                    <li><strong>SNP (Single Nucleotide Polymorphism):</strong> Tek nükleotid değişimi, en yaygın varyasyon (~10 milyon insanda)</li>
+                    <li><strong>Indel:</strong> Küçük insersiyon/delesyon (<50 bp)</li>
+                    <li><strong>CNV (Copy Number Variation):</strong> Büyük segmentlerin duplikasyon/delesyon (>1 kb)</li>
+                    <li><strong>Yapısal Varyantlar:</strong> İnversiyon, translokasyon, duplikasyon, delesyon</li>
+                    <li><strong>Mutasyon Tipleri:</strong>
+                        <ul>
+                            <li>Sessiz (Silent): Amino asit değişmez</li>
+                            <li>Missense: Farklı amino asit</li>
+                            <li>Nonsense: Stop kodon oluşur</li>
+                            <li>Frameshift: Okuma çerçevesi kayması (insersiyon/delesyon)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p><a href="complete.html" style="color: var(--primary-color);">← Ana Sayfaya Dön</a></p>
+            <p>&copy; 2024 Biyoinformatik Yolculuğu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilgisayar Bilimi - Detaylı Rehber</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-laptop-code"></i>
+                <span>Bilgisayar Bilimi</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="complete.html">Ana Sayfa</a></li>
+                <li><a href="#algoritmalar">Algoritmalar</a></li>
+                <li><a href="#veri-yapilari">Veri Yapıları</a></li>
+                <li><a href="#programlama">Programlama</a></li>
+                <li><a href="#yazilim">Yazılım Geliştirme</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bilgisayar Bilimi</h1>
+            <p class="hero-subtitle">Algoritmalar, Veri Yapıları ve Yazılım Geliştirme</p>
+        </div>
+    </section>
+
+    <section class="section" id="algoritmalar">
+        <div class="container">
+            <h2 class="section-title">Algoritmalar</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-sort"></i> Sıralama Algoritmaları</h4>
+                <ul>
+                    <li><strong>Bubble Sort:</strong> O(n²), basit ama yavaş</li>
+                    <li><strong>Quick Sort:</strong> O(n log n) ortalama, pivot seçimi</li>
+                    <li><strong>Merge Sort:</strong> O(n log n), kararlı sıralama</li>
+                    <li><strong>Heap Sort:</strong> O(n log n), heap veri yapısı</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-search"></i> Arama Algoritmaları</h4>
+                <ul>
+                    <li><strong>Linear Search:</strong> O(n), sırasız veriler</li>
+                    <li><strong>Binary Search:</strong> O(log n), sıralı veriler</li>
+                    <li><strong>Depth-First Search (DFS):</strong> Graf gezinme</li>
+                    <li><strong>Breadth-First Search (BFS):</strong> Seviye seviye gezinme</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-project-diagram"></i> Dinamik Programlama</h4>
+                <ul>
+                    <li><strong>Memoization:</strong> Top-down yaklaşım</li>
+                    <li><strong>Tabulation:</strong> Bottom-up yaklaşım</li>
+                    <li><strong>Fibonacci:</strong> Klasik örnek</li>
+                    <li><strong>Longest Common Subsequence:</strong> Dizi hizalama</li>
+                    <li><strong>Knapsack Problem:</strong> Optimizasyon</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-network-wired"></i> Graf Algoritmaları</h4>
+                <ul>
+                    <li><strong>Dijkstra:</strong> En kısa yol, pozitif ağırlıklar</li>
+                    <li><strong>Bellman-Ford:</strong> Negatif ağırlıklar</li>
+                    <li><strong>Floyd-Warshall:</strong> Tüm çiftler arası en kısa yol</li>
+                    <li><strong>Kruskal & Prim:</strong> Minimum spanning tree</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="veri-yapilari">
+        <div class="container">
+            <h2 class="section-title">Veri Yapıları</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-list"></i> Temel Veri Yapıları</h4>
+                <ul>
+                    <li><strong>Array:</strong> Sabit boyut, O(1) erişim</li>
+                    <li><strong>Linked List:</strong> Dinamik boyut, O(n) erişim</li>
+                    <li><strong>Stack:</strong> LIFO (Last In First Out)</li>
+                    <li><strong>Queue:</strong> FIFO (First In First Out)</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-tree"></i> Ağaç Yapıları</h4>
+                <ul>
+                    <li><strong>Binary Tree:</strong> Her düğüm max 2 çocuk</li>
+                    <li><strong>Binary Search Tree:</strong> Sol < Kök < Sağ</li>
+                    <li><strong>AVL Tree:</strong> Dengeli BST</li>
+                    <li><strong>Red-Black Tree:</strong> Dengeli, renk özelliği</li>
+                    <li><strong>B-Tree:</strong> Veritabanları için</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-hashtag"></i> Hash Tabloları</h4>
+                <ul>
+                    <li><strong>Hash Function:</strong> Anahtar → İndeks</li>
+                    <li><strong>Collision Resolution:</strong> Chaining, Open Addressing</li>
+                    <li><strong>Load Factor:</strong> Performans göstergesi</li>
+                    <li><strong>Ortalama O(1):</strong> Ekleme, silme, arama</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="programlama">
+        <div class="container">
+            <h2 class="section-title">Programlama Dilleri ve Paradigmalar</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fab fa-python"></i> Python</h4>
+                <ul>
+                    <li><strong>Özellikler:</strong> Yüksek seviye, yorumlanan, dinamik tip</li>
+                    <li><strong>Kullanım:</strong> Veri bilimi, ML, web, otomasyon</li>
+                    <li><strong>Kütüphaneler:</strong> NumPy, Pandas, scikit-learn</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-code"></i> Programlama Paradigmaları</h4>
+                <ul>
+                    <li><strong>Prosedürel:</strong> Fonksiyon odaklı (C)</li>
+                    <li><strong>Nesne Yönelimli:</strong> Sınıf ve nesneler (Java, Python)</li>
+                    <li><strong>Fonksiyonel:</strong> Saf fonksiyonlar (Haskell, Lisp)</li>
+                    <li><strong>Deklaratif:</strong> Ne yapılacağı (SQL)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-alt" id="yazilim">
+        <div class="container">
+            <h2 class="section-title">Yazılım Geliştirme</h2>
+            
+            <div class="topic-card">
+                <h4><i class="fas fa-code-branch"></i> Versiyon Kontrolü</h4>
+                <ul>
+                    <li><strong>Git:</strong> Dağıtık versiyon kontrol</li>
+                    <li><strong>GitHub/GitLab:</strong> Kod barındırma</li>
+                    <li><strong>Komutlar:</strong> commit, push, pull, merge, branch</li>
+                </ul>
+            </div>
+
+            <div class="topic-card">
+                <h4><i class="fas fa-bug"></i> Test ve Debugging</h4>
+                <ul>
+                    <li><strong>Unit Testing:</strong> Birim testleri</li>
+                    <li><strong>Integration Testing:</strong> Entegrasyon testleri</li>
+                    <li><strong>Debugging Tools:</strong> pdb, IDE debuggers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p><a href="complete.html" style="color: var(--primary-color);">← Ana Sayfaya Dön</a></p>
+            <p>&copy; 2024 Biyoinformatik Yolculuğu</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
